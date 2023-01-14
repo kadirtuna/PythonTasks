@@ -1,6 +1,6 @@
 import numpy as np
 
-#1 dimension numpy array
+#1 dimensional numpy array
 nparray1 = np.array([1, 2, 3, 4, 5])
 print(nparray1.shape)
 print(nparray1.ndim)
@@ -8,7 +8,7 @@ print(nparray1.size)
 print(nparray1.dtype.name)
 print(type(nparray1))
 
-#2 dimension numpy array
+#2 dimensional numpy array
 nparray2 = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
 print(nparray2)
 
@@ -60,7 +60,7 @@ print(nparray11[2:8])
 print(nparray11[2:100])
 print(nparray11[::-1])
 
-#Index with a 2 dimension numpy array
+#Index with a 2 dimensional numpy array
 nparray12 = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 print(nparray12)
 print(nparray12[1, 1])
@@ -68,7 +68,7 @@ print(nparray12[:, 1])#All values at 1th column
 print(nparray12[1, 1:4])#[6, 7, 8]
 print(nparray12[-1,:])
 
-#3 dimensions numpy array for Vector
+#3 dimensional numpy array for Vector
 nparray13 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print(nparray13)
 vector1 = nparray13.ravel()
